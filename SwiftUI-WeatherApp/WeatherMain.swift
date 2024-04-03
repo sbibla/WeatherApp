@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WeatherMain: View {
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.blue, .white]), 
@@ -72,5 +72,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    WeatherMain()
 }
