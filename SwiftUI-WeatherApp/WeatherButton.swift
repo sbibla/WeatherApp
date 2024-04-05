@@ -26,5 +26,7 @@ struct WeatherButton: View {
 }
 
 #Preview {
-    WeatherButton(title: "Test Button", textColor: .white, backgroundColor: .blue)
+    WeatherButton(title: "Test Button", 
+                  textColor: .white,
+                  backgroundColor: .blue)
 }
